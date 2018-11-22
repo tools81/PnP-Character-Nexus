@@ -1,0 +1,10 @@
+<Rulesets>
+	<Ruleset Name="World of Darkness" 
+		AppDirectory="Nexus World of Darkness\bin\x86\Debug"
+		DataDirectory="World of Darkness"
+		PrintTemplatePath="World of Darkness\Character Sheet"
+		Icon="World of Darkness\Images\WOD_icon.ico"
+		Logo="World of Darkness\Images\Logo.jpg"
+		Image="World of Darkness\Images\Splash.jpg">
+	</Ruleset>
+</Rulesets>

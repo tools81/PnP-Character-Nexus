@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="PnP_Character_Nexus.CharacterEdit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PnP_Character_Nexus"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <SplitView IsPaneOpen="False" DisplayMode="CompactOverlay" OpenPaneLength="360" PanePlacement="Right">
+            <SplitView.Pane>
+                <RelativePanel x:Name="PanePanel" Background="DarkSlateGray">
+                    <RelativePanel.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </RelativePanel.Resources>
+                </RelativePanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <RelativePanel x:Name="ContentPanel">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="800"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Grid.Column="0" Height="130" HorizontalAlignment="Stretch" 
+                               Source="C:\Users\brett.tooley\Google Drive\PnP Character Nexus\Data\World of Darkness\Images\WOD_logo.jpg"/>
+                    </Grid>
+                </RelativePanel>
+            </SplitView.Content>
+        </SplitView>
+    </Grid>
+</Page>

@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="PnP_Character_Nexus.Views.WelcomeScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PnP_Character_Nexus.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="DarkSlateGray"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid Name="grdRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="{Binding RulesetSplash}" AlignmentY="Top" AlignmentX="Center" />
+        </Grid.Background>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Name="lblRuleset" Text="{Binding RulesetName}" FontSize="24" FontWeight="Bold" Foreground="White" />
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <!--<Border BorderBrush="Black" BorderThickness="2" />-->
+            <Grid Grid.Row="1" Grid.ColumnSpan="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <!--<Border BorderBrush="Black" BorderThickness="2" />-->
+                <Button Grid.Row="1" Grid.Column="0" Content="Create Character" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                        Margin="15" Name="btnCreate" Style="{StaticResource ButtonStyle}" />
+                <Button Grid.Row="1" Grid.Column="1" Content="Load Character" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                        Margin="15" Name="btnLoad" Style="{StaticResource ButtonStyle}" />
+                <Button Grid.Row="1" Grid.Column="2" Content="Data Source" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                        Margin="15" Name="btnSource" Style="{StaticResource ButtonStyle}" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
