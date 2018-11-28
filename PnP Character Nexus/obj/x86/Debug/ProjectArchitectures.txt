@@ -1,1 +1,1 @@
-C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\PnP Character Nexus.csproj;x86
+C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\PnP Character Nexus.csproj;x86

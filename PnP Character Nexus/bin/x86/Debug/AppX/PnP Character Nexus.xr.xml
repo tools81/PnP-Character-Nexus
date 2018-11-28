@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="RulesetSplash" />
     <RootPropertyPathName Name="RulesetName" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -22,6 +21,8 @@
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
     </RootType>
@@ -64,6 +65,9 @@
       <RootProperty Name="Height" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
     </RootType>
     <RootType FullName="PnP_Character_Nexus.CharacterEdit" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -73,7 +77,9 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Style" />
+      <RootProperty Name="Padding" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Opacity" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
@@ -93,10 +99,13 @@
       <RootProperty Name="AlignmentY" />
       <RootProperty Name="AlignmentX" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Children" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ScaleTransform">
+      <RootProperty Name="ScaleX" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="PnP_Character_Nexus.Views.WelcomeScreen" />
   </Roots.RootTypes>
 </Roots>

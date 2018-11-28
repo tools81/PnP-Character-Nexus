@@ -17,9 +17,9 @@
         </Style>
     </Page.Resources>
 
-    <Grid x:ConnectionId='1' Name="grdRoot">
+    <Grid x:ConnectionId='1' Name="main">
         <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="{Binding RulesetSplash}" AlignmentY="Top" AlignmentX="Center" />
+            <ImageBrush Stretch="Fill" ImageSource="C:/Users/brett.tooley/Google Drive/PnP Character Nexus/Data/World of Darkness/Images/Splash.jpg" AlignmentY="Top" AlignmentX="Center" />
         </Grid.Background>
         
         <Grid.RowDefinitions>
@@ -27,9 +27,9 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
-            <TextBlock x:ConnectionId='5' Name="lblRuleset" Text="{Binding RulesetName}" FontSize="24" FontWeight="Bold" Foreground="White" />
+            <TextBlock x:ConnectionId='7' Name="lblRuleset" Text="{Binding RulesetName}" FontSize="24" FontWeight="Bold" Foreground="White" />
         </StackPanel>
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Background="Transparent">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="8*"/>
@@ -37,25 +37,37 @@
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
-                <RowDefinition Height="4*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
+            <Button x:ConnectionId='2' Name="btnRulesetLeft" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Padding="5"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Opacity="0.15">
+                <Image Source="/Assets/Arrow_Button.png" Stretch="Fill"/>
+            </Button>
+            <Button x:ConnectionId='3' Name="btnRulesetRight" Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" Padding="5"
+                    HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Opacity="0.15">
+                <Image Source="/Assets/Arrow_Button.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <ScaleTransform ScaleX="-1"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
             <!--<Border BorderBrush="Black" BorderThickness="2" />-->
-            <Grid Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid Grid.Row="2" Grid.ColumnSpan="3" Background="Transparent">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
                     <ColumnDefinition Width="3*"/>
                     <ColumnDefinition Width="3*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="5*"/>
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
                 <!--<Border BorderBrush="Black" BorderThickness="2" />-->
-                <Button x:ConnectionId='2' Grid.Row="1" Grid.Column="0" Content="Create Character" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                <Button x:ConnectionId='4' Grid.Row="0" Grid.Column="0" Content="Create Character" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
                         Margin="15" Name="btnCreate" Style="{StaticResource ButtonStyle}" />
-                <Button x:ConnectionId='3' Grid.Row="1" Grid.Column="1" Content="Load Character" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                <Button x:ConnectionId='5' Grid.Row="0" Grid.Column="1" Content="Load Character" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
                         Margin="15" Name="btnLoad" Style="{StaticResource ButtonStyle}" />
-                <Button x:ConnectionId='4' Grid.Row="1" Grid.Column="2" Content="Data Source" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                <Button x:ConnectionId='6' Grid.Row="0" Grid.Column="2" Content="Data Source" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
                         Margin="15" Name="btnSource" Style="{StaticResource ButtonStyle}" />
             </Grid>
         </Grid>

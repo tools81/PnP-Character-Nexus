@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>BRETT-PC</Machine>
-    <WindowsUser>Brett</WindowsUser>
+    <Machine>GXLT016910</Machine>
+    <WindowsUser>brett.tooley</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,16 +10,16 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>91ed1d09-5793-42f7-ab88-7da477709edb</PackageIdentityName>
     <PackageIdentityPublisher>CN=brett.tooley</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>5BB2FD72D259F2D431254F6B9F350CF578639CA89D0004AB3596278B79845DEE</RegisteredManifestChecksum>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>AADC784D0D357FE18C6F340B2C4AC977A760594192CA4352A29A6DFBF161068F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>91ed1d09-5793-42f7-ab88-7da477709edb_1.0.0.0_x86__n67fkyjg4p732</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>91ed1d09-5793-42f7-ab88-7da477709edb_n67fkyjg4p732!App</RegisteredUserModeAppID>
     <RegisteredPackageID>91ed1d09-5793-42f7-ab88-7da477709edb</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-22T01:21:50.387</Modified>
+      <Modified>2018-11-28T22:18:59.402</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\PnP Character Nexus.exe">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\PnP Character Nexus.exe">
       <PackagePath>entrypoint\PnP Character Nexus.exe</PackagePath>
-      <Modified>2018-11-22T01:21:47.345</Modified>
+      <Modified>2018-11-28T22:18:59.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -94,95 +94,95 @@
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
       <Modified>2016-06-12T05:13:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.collections\4.3.0\lib\netcore50\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.collections\4.3.0\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
       <Modified>2016-11-05T09:55:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.diagnostics.tools\4.3.0\lib\netcore50\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.diagnostics.tools\4.3.0\lib\netcore50\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
       <Modified>2016-11-05T09:55:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.diagnostics.tracing\4.3.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.diagnostics.tracing\4.3.0\lib\netcore50\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
       <Modified>2016-11-05T09:55:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.globalization\4.3.0\lib\netcore50\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.globalization\4.3.0\lib\netcore50\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
       <Modified>2016-11-05T09:56:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.globalization.calendars\4.3.0\lib\netcore50\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.globalization.calendars\4.3.0\lib\netcore50\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
       <Modified>2016-11-05T09:55:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.io\4.3.0\lib\netcore50\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.io\4.3.0\lib\netcore50\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
       <Modified>2016-11-05T09:56:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.reflection\4.3.0\lib\netcore50\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.reflection\4.3.0\lib\netcore50\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
       <Modified>2016-11-05T09:56:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.reflection.extensions\4.3.0\lib\netcore50\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.reflection.extensions\4.3.0\lib\netcore50\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
       <Modified>2016-11-05T09:56:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.reflection.primitives\4.3.0\lib\netcore50\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.reflection.primitives\4.3.0\lib\netcore50\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
       <Modified>2016-11-05T09:56:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.resources.resourcemanager\4.3.0\lib\netcore50\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.resources.resourcemanager\4.3.0\lib\netcore50\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
       <Modified>2016-11-05T09:56:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.runtime\4.3.0\lib\netcore50\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.runtime\4.3.0\lib\netcore50\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2016-11-05T09:57:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.runtime.handles\4.3.0\lib\netstandard1.3\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.runtime.handles\4.3.0\lib\netstandard1.3\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
       <Modified>2016-11-05T09:56:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.runtime.interopservices\4.3.0\lib\netcore50\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.runtime.interopservices\4.3.0\lib\netcore50\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
       <Modified>2016-11-05T09:56:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.text.encoding\4.3.0\lib\netcore50\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.text.encoding\4.3.0\lib\netcore50\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
       <Modified>2016-11-05T09:57:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.text.encoding.extensions\4.3.0\lib\netcore50\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.text.encoding.extensions\4.3.0\lib\netcore50\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
       <Modified>2016-11-05T09:57:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.threading.tasks\4.3.0\lib\netcore50\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.threading.tasks\4.3.0\lib\netcore50\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
       <Modified>2016-11-05T09:57:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.any.system.threading.timer\4.3.0\lib\netcore50\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.any.system.threading.timer\4.3.0\lib\netcore50\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
       <Modified>2016-11-05T09:57:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.win.microsoft.win32.primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.win.microsoft.win32.primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2016-11-05T09:55:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.win.system.diagnostics.debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.win.system.diagnostics.debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
       <Modified>2016-11-05T09:55:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.win.system.io.filesystem\4.3.0\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.win.system.io.filesystem\4.3.0\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
       <Modified>2016-11-05T09:56:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.win.system.net.primitives\4.3.0\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.win.system.net.primitives\4.3.0\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
       <Modified>2016-11-05T09:56:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.win.system.net.sockets\4.3.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.win.system.net.sockets\4.3.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
       <Modified>2016-11-05T09:56:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.win.system.runtime.extensions\4.3.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.win.system.runtime.extensions\4.3.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
       <Modified>2016-11-05T09:56:48.000</Modified>
     </AppxPackagedFile>
@@ -190,11 +190,11 @@
       <PackagePath>clrjit.dll</PackagePath>
       <Modified>2016-06-14T00:27:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.3.0\runtimes\win7-x86\native\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.3.0\runtimes\win7-x86\native\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2016-11-05T09:34:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\runtime.win7.system.private.uri\4.3.0\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\runtime.win7.system.private.uri\4.3.0\runtimes\win\lib\netcore50\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
       <Modified>2016-11-05T09:56:36.000</Modified>
     </AppxPackagedFile>
@@ -202,37 +202,37 @@
       <PackagePath>System.AppContext.dll</PackagePath>
       <Modified>2016-06-12T05:13:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\system.buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
       <PackagePath>System.Buffers.dll</PackagePath>
       <Modified>2016-11-05T09:55:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2016-06-12T05:13:16.000</Modified>
+      <Modified>2016-06-12T04:13:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2016-06-12T05:13:16.000</Modified>
+      <Modified>2016-06-12T04:13:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2016-06-12T05:13:22.000</Modified>
+      <Modified>2016-06-12T04:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2016-06-12T05:13:22.000</Modified>
+      <Modified>2016-06-12T04:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2016-06-12T05:13:24.000</Modified>
+      <Modified>2016-06-12T04:13:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
       <Modified>2016-06-12T05:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2016-06-12T05:13:20.000</Modified>
+      <Modified>2016-06-12T04:13:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
@@ -266,7 +266,7 @@
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
       <Modified>2016-06-12T05:13:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
       <Modified>2016-11-05T09:56:08.000</Modified>
     </AppxPackagedFile>
@@ -278,9 +278,9 @@
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
       <Modified>2016-06-12T05:13:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2016-06-12T05:14:02.000</Modified>
+      <Modified>2016-06-12T04:14:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
@@ -302,21 +302,21 @@
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
       <Modified>2016-06-12T05:13:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
       <PackagePath>System.Net.NameResolution.dll</PackagePath>
-      <Modified>2016-06-12T05:13:58.000</Modified>
+      <Modified>2016-06-12T04:13:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
       <Modified>2016-06-12T05:14:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
-      <Modified>2016-06-12T05:14:02.000</Modified>
+      <Modified>2016-06-12T04:14:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2016-06-12T05:14:08.000</Modified>
+      <Modified>2016-06-12T04:14:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
       <PackagePath>System.Net.WebSockets.dll</PackagePath>
@@ -366,9 +366,9 @@
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
       <Modified>2016-06-12T05:14:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2016-06-12T05:14:14.000</Modified>
+      <Modified>2016-06-12T04:14:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
@@ -382,7 +382,7 @@
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
       <Modified>2016-06-12T05:14:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\system.runtime.serialization.formatters\4.3.0\lib\netstandard1.4\System.Runtime.Serialization.Formatters.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.runtime.serialization.formatters\4.3.0\lib\netstandard1.4\System.Runtime.Serialization.Formatters.dll">
       <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
       <Modified>2016-11-05T09:56:58.000</Modified>
     </AppxPackagedFile>
@@ -390,7 +390,7 @@
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
       <Modified>2017-02-09T20:26:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\system.runtime.serialization.primitives\4.3.0\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.runtime.serialization.primitives\4.3.0\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
       <Modified>2016-11-05T09:57:02.000</Modified>
     </AppxPackagedFile>
@@ -406,9 +406,9 @@
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
       <Modified>2016-06-12T05:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2016-06-12T05:14:40.000</Modified>
+      <Modified>2016-06-12T04:14:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
@@ -430,9 +430,9 @@
       <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
       <Modified>2016-06-12T05:14:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
-      <Modified>2016-06-12T05:14:46.000</Modified>
+      <Modified>2016-06-12T04:14:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.duplex\4.0.4\lib\netcore50\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
@@ -462,13 +462,13 @@
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
       <Modified>2016-06-12T05:14:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\.nuget\packages\system.threading\4.3.0\lib\netcore50\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.threading\4.3.0\lib\netcore50\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
       <Modified>2016-11-05T09:57:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\.nuget\packages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2016-06-12T05:14:54.000</Modified>
+      <Modified>2016-06-12T04:14:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
@@ -498,79 +498,79 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-12T05:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Images\Arrow_Button.png">
-      <PackagePath>Images\Arrow_Button.png</PackagePath>
-      <Modified>2018-11-02T16:43:41.000</Modified>
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\Arrow_Button.png">
+      <PackagePath>Assets\Arrow_Button.png</PackagePath>
+      <Modified>2018-11-28T21:08:40.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-09-21T14:26:45.000</Modified>
+      <Modified>2018-11-27T20:16:50.668</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-21T14:26:45.000</Modified>
+      <Modified>2018-11-27T20:16:50.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-21T14:26:45.000</Modified>
+      <Modified>2018-11-27T20:16:50.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-21T14:26:45.000</Modified>
+      <Modified>2018-11-27T20:16:50.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-21T14:26:45.000</Modified>
+      <Modified>2018-11-27T20:16:50.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-21T14:26:45.000</Modified>
+      <Modified>2018-11-27T20:16:50.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-21T14:26:45.000</Modified>
+      <Modified>2018-11-27T20:16:50.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-10-25T17:43:31.000</Modified>
+      <Modified>2018-11-27T20:16:50.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\PnP Character Nexus.xr.xml">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\PnP Character Nexus.xr.xml">
       <PackagePath>PnP Character Nexus.xr.xml</PackagePath>
-      <Modified>2018-11-22T00:23:05.279</Modified>
+      <Modified>2018-11-28T21:40:43.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-22T01:21:47.007</Modified>
+      <Modified>2018-11-28T21:28:27.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\Views\CharacterEdit.xbf">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\Views\CharacterEdit.xbf">
       <PackagePath>Views\CharacterEdit.xbf</PackagePath>
-      <Modified>2018-11-22T01:21:47.013</Modified>
+      <Modified>2018-11-28T21:28:27.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\Views\Start.xbf">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\Views\Start.xbf">
       <PackagePath>Views\Start.xbf</PackagePath>
-      <Modified>2018-11-22T01:21:47.017</Modified>
+      <Modified>2018-11-28T21:28:27.175</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\Views\WelcomeScreen.xbf">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\Views\WelcomeScreen.xbf">
       <PackagePath>Views\WelcomeScreen.xbf</PackagePath>
-      <Modified>2018-11-22T01:21:47.025</Modified>
+      <Modified>2018-11-28T22:18:58.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2018-04-20T03:01:52.000</Modified>
+      <Modified>2017-09-28T23:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-11-22T01:21:49.850</Modified>
+      <Modified>2018-11-28T21:28:28.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brett\Google Drive\PnP Character Nexus\PnP Character Nexus\bin\x86\Debug\Core\PnP Character Nexus.exe">
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\bin\x86\Debug\Core\PnP Character Nexus.exe">
       <PackagePath>PnP Character Nexus.exe</PackagePath>
-      <Modified>2018-11-22T01:21:50.376</Modified>
+      <Modified>2018-11-28T22:18:59.397</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

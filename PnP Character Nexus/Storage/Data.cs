@@ -16,9 +16,7 @@ namespace PnP_Character_Nexus.Storage
         {
             List<Ruleset> rulesets = new List<Ruleset>();
 
-            var sf = await Source.Path.GetFileAsync("Ruleset.xml").AsTask().ConfigureAwait(false);
-
-            //var sf = await StorageFile.GetFileFromPathAsync($@"{Source.Path}\\Ruleset.xml").AsTask().ConfigureAwait(false);
+            var sf = await Source.Folder.GetFileAsync("Ruleset.xml").AsTask().ConfigureAwait(false);
 
             using (var stream = await sf.OpenStreamForReadAsync().ConfigureAwait(false))
             {
