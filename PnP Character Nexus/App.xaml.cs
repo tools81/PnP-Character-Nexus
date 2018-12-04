@@ -31,7 +31,7 @@ namespace PnP_Character_Nexus
         public App()
         {
             this.InitializeComponent();
-            this.Suspending += OnSuspending;
+            this.Suspending += OnSuspending;            
         }
 
         /// <summary>

@@ -403,6 +403,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Assets\defaultbg.jpg">
+      <PackagePath>Assets\defaultbg.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

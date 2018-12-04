@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="RulesetName" />
+    <RootPropertyPathName Name="SelectedRuleset" />
+    <RootPropertyPathName Name="ImageSource" />
+    <RootPropertyPathName Name="UpdateRuleset" />
+    <RootPropertyPathName Name="Name" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -80,6 +83,8 @@
       <RootProperty Name="Padding" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Opacity" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
@@ -99,13 +104,14 @@
       <RootProperty Name="AlignmentY" />
       <RootProperty Name="AlignmentX" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Background" />
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ScaleTransform">
       <RootProperty Name="ScaleX" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="PnP_Character_Nexus.Views.WelcomeScreen" />
   </Roots.RootTypes>
 </Roots>

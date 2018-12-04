@@ -1,16 +1,16 @@
-﻿using System;
+﻿using PnP_Character_Nexus.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
-using Windows.Storage;
 
 namespace PnP_Character_Nexus.Storage
 {
     public class Data
     {
-        public static readonly List<Ruleset> Rulesets = new Lazy<Task<List<Ruleset>>>(async () => await GetRulesets()).Value.Result;
+        public static readonly List<Ruleset> Rulesets = GetRulesets().Result;
 
         private static async Task<List<Ruleset>> GetRulesets()
         {

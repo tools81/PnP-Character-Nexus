@@ -1,4 +1,5 @@
 ﻿using PnP_Character_Nexus.Interfaces;
+using PnP_Character_Nexus.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

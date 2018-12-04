@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PnP_Character_Nexus.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -21,28 +22,18 @@ namespace PnP_Character_Nexus.Views
 {
     public sealed partial class WelcomeScreen : Page
     {
-        private Ruleset SelectedRuleset;
+        private WelcomeScreenViewModel _vm = new WelcomeScreenViewModel();
+        //public WelcomeScreenViewModel ViewModel { get { return _vm; } set { _vm = value; SetViewModelBinding(value); } }
 
         public WelcomeScreen()
         {
             this.InitializeComponent();
-            var rulesetTask = Task.Run(() => SelectedRuleset = Storage.Data.Rulesets[0]);
-            rulesetTask.Wait();
-
-            //SetBackground().Wait();
+            DataContext = _vm;
         }
 
-        private async Task SetBackground()
-        {
-            var bitmap = new BitmapImage();
-            var file = await Storage.Source.Folder.GetFileAsync(SelectedRuleset.Image);
-            var stream = await file.OpenReadAsync();
-            await bitmap.SetSourceAsync(stream);
-
-            main.Background = new ImageBrush
-            {
-                ImageSource = bitmap
-            };
-        }
+        //private void SetViewModelBinding(WelcomeScreenViewModel value)
+        //{
+        //    DataContext = _vm;
+        //}
     }
 }

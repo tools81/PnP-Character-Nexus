@@ -456,3 +456,4 @@ C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character N
 C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\brett.tooley\Source\MyRepos\tools81\PnP-Character-Nexus\PnP Character Nexus\obj\x86\Debug\PnP Character Nexus.csprojAssemblyReference.cache
